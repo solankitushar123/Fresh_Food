@@ -13,7 +13,7 @@ export default function App() {
       <HeroSection />
       <SuggestedProducts />
       <BrowseProducts />
-      <DeliveryInformation/>
+      <DeliveryInformation />
       <Footer />
     </>
   );
