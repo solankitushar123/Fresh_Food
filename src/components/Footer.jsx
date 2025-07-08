@@ -9,18 +9,22 @@ import {
   FaPhone,
 } from "react-icons/fa";
 
+
+import logo from "../assets/logo.jpg";
+
 export default function Footer() {
   return (
     <footer className="bg-lime-300 text-gray-800 py-10 px-6 md:px-20">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-10">
+
         {/* Left Section */}
         <div className="space-y-4">
+         
           <img
-            src="/src/assets/logo.jpg"
+            src={logo}
             alt="Fresh Food Logo"
             className="w-24"
-          />{" "}
-          {/* Update with your logo path */}
+          />
           <h3 className="font-bold text-lg">Fresh Food</h3>
           <div className="flex items-center gap-2">
             <FaGlobe />
@@ -88,7 +92,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Copyright */}
       <p className="text-center mt-8">
         © 2002 - 2022 Fresh Food, LLC. All Rights Reserved.
       </p>

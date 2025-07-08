@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/men.jpg";
 
 export default function DeliveryInformation() {
   return (
@@ -10,7 +11,7 @@ export default function DeliveryInformation() {
         </h2>
 
         <img
-          src="/src/assets/men.jpg"
+          src={logo}
           alt="Delivery Person"
           className="w-50 h-auto rounded-md object-cover"
         />
