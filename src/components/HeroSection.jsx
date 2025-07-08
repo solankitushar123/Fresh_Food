@@ -1,19 +1,24 @@
 import React from "react";
 import { FiPhone } from "react-icons/fi";
 
+import bike from "../assets/bike.jpg";
+import org from "../assets/org.jpg";
+import erth from "../assets/erth.jpg";
+import sl from "../assets/sl.png";
+
 const items = [
   {
-    icon: "/src/assets/bike.jpg",
+    icon: bike,
     title: "Fast Delivery",
     desc: "Within 24 hours in city",
   },
   {
-    icon: "/src/assets/org.jpg",
+    icon: org,
     title: "Organic Products",
     desc: "Fresh from local farms",
   },
   {
-    icon: "/src/assets/erth.jpg",
+    icon: erth,
     title: "Secure Payment",
     desc: "100% safe checkout",
   },
@@ -45,7 +50,7 @@ export default function Hero() {
           {/* Right Image Content */}
           <div className="relative mt-10 md:mt-0 order-1 md:order-2">
             <img
-              src="/src/assets/sl.png"
+              src={sl}
               alt="Vegetables Demo"
               className="w-full max-w-[480px] mx-auto md:mx-0"
             />
@@ -93,7 +98,7 @@ export default function Hero() {
               <h3 className="text-lg font-bold mb-1 text-gray-800">
                 {item.title}
               </h3>
-              {/* No description in your image, so leaving desc empty */}
+              <p className="text-sm text-gray-600">{item.desc}</p>
             </div>
           ))}
         </div>

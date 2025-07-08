@@ -13,7 +13,7 @@ export default function Navbar() {
         {/* Left: Logo & Menu */}
         <div className="flex items-center gap-12">
           <img
-            src="/src/assets/logo.jpg" // Replace with your logo path
+            src="/src/assets/logo.jpg" 
             alt="FreshFood"
             className="h-10"
           />

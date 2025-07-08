@@ -15,7 +15,7 @@ const products = [
     name: "Carrots",
     price: "BDT. 22/kg",
     image:
-     "https://cdn.pixabay.com/photo/2016/03/05/19/02/tomatoes-1238253_1280.jpg",
+      "https://images.unsplash.com/photo-1582515073490-39981397c445?auto=format&fit=crop&w=400&q=80",
     isNew: true,
   },
   {
@@ -23,7 +23,7 @@ const products = [
     name: "Cucumbers",
     price: "BDT. 40/kg",
     image:
-      "https://cdn.pixabay.com/photo/2016/03/05/19/02/tomatoes-1238253_1280.jpg",
+      "https://media.istockphoto.com/id/1428793307/photo/fresh-ripe-organic-small-gherkin-cucumbers-in-bowl-on-wooden-table-not-marinated-vegetable.jpg?s=612x612&w=0&k=20&c=eS_jkZXEKYpUWXj6txJVwzydY0X3lBKCPRUoIH7DAPk=",
     isNew: true,
   },
 ];
@@ -73,5 +73,3 @@ export default function SuggestedProducts() {
     </section>
   );
 }
-
-

@@ -15,7 +15,7 @@ const browseProducts = [
     name: "Organic Bananas",
     price: "$3.99 / kg",
     image:
-      "https://images.unsplash.com/photo-1574226516831-e1dff420e8f8?auto=format&fit=crop&w=400&q=80",
+      "https://media.istockphoto.com/id/1291262112/photo/banana.webp?a=1&b=1&s=612x612&w=0&k=20&c=KSmjx5R8Qk4mzzGw8tAP3CAPoSH_zdXD7sZYd1lBuD4=",
     isNew: false,
   },
   {
@@ -23,7 +23,7 @@ const browseProducts = [
     name: "Fresh Carrots",
     price: "$2.99 / kg",
     image:
-      "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1582515073490-39981397c445?auto=format&fit=crop&w=400&q=80",
     isNew: false,
   },
   {
@@ -31,7 +31,7 @@ const browseProducts = [
     name: "Juicy Oranges",
     price: "$3.49 / kg",
     image:
-      "https://images.unsplash.com/photo-1571689936007-3e94c0a3c859?auto=format&fit=crop&w=400&q=80",
+      "https://media.istockphoto.com/id/1008375528/photo/orange-fruit-with-green-leafs-in-basket-on-grey-wooden-table.jpg?s=612x612&w=0&k=20&c=igWpC0k_kNA853hryjSaew9Jo26Y3SSgM0CMRphAyUQ=",
     isNew: false,
   },
   {
@@ -39,7 +39,7 @@ const browseProducts = [
     name: "Sweet Mangoes",
     price: "$6.25 / kg",
     image:
-      "https://images.unsplash.com/photo-1587049352859-1737e2c38b41?auto=format&fit=crop&w=400&q=80",
+      "https://media.istockphoto.com/id/534608466/photo/popular-kesar-mangoes-with-light-green-backround-isolated.jpg?s=612x612&w=0&k=20&c=NaO6CL6Ov_bEaq_MswWNzLnwQBuzRGmnlT-eqLhaOhU=",
     isNew: true,
   },
   {
@@ -47,7 +47,7 @@ const browseProducts = [
     name: "Green Grapes",
     price: "$4.25 / kg",
     image:
-      "https://images.unsplash.com/photo-1603036376605-04694d571c2f?auto=format&fit=crop&w=400&q=80",
+      "https://media.istockphoto.com/id/153009876/photo/fresh-green-grapes-with-leaves-isolated-on-white.jpg?s=612x612&w=0&k=20&c=DV4n6hNV-veNHGCPZfNPNeFTe8wU_JYzq5q8Bz9QT6M=",
     isNew: false,
   },
   {
@@ -55,7 +55,7 @@ const browseProducts = [
     name: "Tomatoes",
     price: "$2.50 / kg",
     image:
-      "https://images.unsplash.com/photo-1582281298056-369090bb275e?auto=format&fit=crop&w=400&q=80",
+      "https://cdn.pixabay.com/photo/2016/03/05/19/02/tomatoes-1238253_1280.jpg",
     isNew: false,
   },
   {
@@ -63,7 +63,7 @@ const browseProducts = [
     name: "Broccoli",
     price: "$3.75 / kg",
     image:
-      "https://images.unsplash.com/photo-1582515073490-39981397c445?auto=format&fit=crop&w=400&q=80",
+      "https://media.istockphoto.com/id/2211945334/photo/isolated-single-fresh-broccoli-floret-exhibiting-green-texture.jpg?s=612x612&w=0&k=20&c=2aUnvA8OAu5eVBJui9M0DidJfnaEyW9vB3TS1oJ4jKw=",
     isNew: true,
   },
   {
@@ -71,7 +71,7 @@ const browseProducts = [
     name: "Lettuce",
     price: "$1.99 / kg",
     image:
-      "https://images.unsplash.com/photo-1567303313489-57c1b9099f8c?auto=format&fit=crop&w=400&q=80",
+      "https://media.istockphoto.com/id/535910387/photo/ripe-organic-green-salad-romano.jpg?s=612x612&w=0&k=20&c=9GTcj_WqUk9LWkzUb6g4MCnLTPAapT_hNMZCHRd3C1U=",
     isNew: false,
   },
   {
@@ -79,7 +79,7 @@ const browseProducts = [
     name: "Red Cherries",
     price: "$7.99 / kg",
     image:
-      "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=400&q=80",
+      "https://media.istockphoto.com/id/1435219728/photo/fresh-red-cherries-fruit-in-bowl.jpg?s=612x612&w=0&k=20&c=l86aV6DDDKOwVOOFXe0zCs-ckwbiExqSNZVlqGaQb4g=",
     isNew: false,
   },
   {
@@ -87,7 +87,7 @@ const browseProducts = [
     name: "Pineapple",
     price: "$4.20 / kg",
     image:
-      "https://images.unsplash.com/photo-1574226516831-e1dff420e8f8?auto=format&fit=crop&w=400&q=80",
+      "https://media.istockphoto.com/id/172388455/photo/pineapple-wallpaper.jpg?s=612x612&w=0&k=20&c=F7shu4sqGDz3b0_siHgHZ0j7sNeUHjBHVPquu2oTNFw=",
     isNew: false,
   },
   {
@@ -95,7 +95,7 @@ const browseProducts = [
     name: "Strawberries",
     price: "$8.25 / kg",
     image:
-      "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?auto=format&fit=crop&w=400&q=80",
+      "https://media.istockphoto.com/id/2212130187/photo/a-vibrant-collection-of-ripe-juicy-strawberries-fills-the-market-stall-reflecting-the-sunshine.jpg?s=612x612&w=0&k=20&c=Nwl59XF3iF51lVZCIGLI7qUkIBov8n1Eoxz9tWBwrEA=",
     isNew: true,
   },
 ];

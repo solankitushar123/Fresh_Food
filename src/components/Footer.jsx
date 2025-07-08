@@ -16,7 +16,7 @@ export default function Footer() {
         {/* Left Section */}
         <div className="space-y-4">
           <img
-            src="/images/fresh-logo.png"
+            src="/src/assets/logo.jpg"
             alt="Fresh Food Logo"
             className="w-24"
           />{" "}
